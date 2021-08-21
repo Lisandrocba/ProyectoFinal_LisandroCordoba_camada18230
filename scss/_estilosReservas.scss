@@ -1,0 +1,31 @@
+.contenedorMainReserva{
+    margin: 2% 10%;
+}
+
+.contenedorMainReserva__img img{
+    object-fit: cover;
+}
+
+.contenedorTabla{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorTabla__tituloTabla{
+    @include titulo1;
+}
+
+
+
+// .contenedorTabla__Form{
+//     margin: 0 5% 2% 5%;
+// }
+
+@media (min-width: 600px) {
+    .contenedorTabla{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+  
+}
